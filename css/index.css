@@ -1,0 +1,1773 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: normal 14px/1.38 SamsungSharpSans;
+  color: rgb(0, 0, 0);
+}
+
+.-stores {
+  display: block;
+  float: left;
+  clear: both;
+  width: 371px;
+  height: 75px;
+  margin: 60px 0 0 27px;
+  background-image: url('../images/andriod.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.anytime-anywere {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 381px;
+  margin-top: 109px;
+}
+
+.anytime-anywere .element {
+  position: relative;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.aout {
+  display: block;
+  float: left;
+  margin: 17px 0 0 29px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: .5s ease-outa;
+  -moz-transition: .5s ease-outa;
+  -o-transition: .5s ease-outa;
+  -ms-transition: .5s ease-outa;
+  transition: .5s ease-outa;
+}
+
+.aout:hover,
+.classes:hover,
+.main-menue .application:hover,
+.main-menue .home:hover {
+  color: rgb(1, 180, 252);
+  -webkit-transition: .5s ease-in;
+  -moz-transition: .5s ease-in;
+  -o-transition: .5s ease-in;
+  -ms-transition: .5s ease-in;
+  transition: .5s ease-in;
+}
+
+.application,
+.home {
+  display: block;
+  float: left;
+  letter-spacing: 1px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 1380px;
+  height: 350px;
+  background: rgb(0, 176, 255);
+  background: -webkit-linear-gradient(135deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(135deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(135deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(135deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:         linear-gradient(315deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  letter-spacing: 1px;
+}
+
+.classes {
+  display: block;
+  float: left;
+  margin: 17px 0 0 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  -ms-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.contact {
+  display: block;
+  float: left;
+  width: 153px;
+  height: 53px;
+  margin-left: 13px;
+  border-radius: 10px;
+  background: rgb(0, 176, 255);
+  background: -webkit-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:         linear-gradient(270deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.course {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.courses {
+  display: block;
+  float: left;
+}
+
+.courses .image {
+  top: 34px;
+  z-index: 124;
+  width: 177px;
+  height: 166px;
+  background-image: url('../images/courses%20_03.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.email {
+  display: block;
+  float: left;
+  margin: 8px 0 0 5px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+
+.essential {
+  float: left;
+  clear: both;
+  font-size: 29px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.face {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-image: url('../images/Vector(3).svg');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.facebooka {
+  display: block;
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-image: url('../images/Vector(3).svg');
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.feed-back {
+  display: block;
+  position: absolute;
+  top: -67px;
+  left: 1003px;
+  z-index: 71;
+  width: 288px;
+  height: 262px;
+  border-radius: 10px;
+  background: url('../images/two%20people.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 180px auto;
+  background-position: 50% 20%;
+  box-shadow: 0 0 96px rgba(158, 158, 158, 0.3);
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+.about,
+.feedback {
+  display: block;
+  float: left;
+  margin-left: 33px;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 1380px;
+  height: 350px;
+  margin-top: 775px;
+}
+
+.github {
+  display: block;
+  float: left;
+  background-image: url('../images/Vector-2.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.grow-skils {
+  display: block;
+  position: absolute;
+  top: -108px;
+  left: 662px;
+  z-index: 77;
+  width: 288px;
+  height: 271px;
+  border-radius: 10px;
+  background: url('../images/cair%20people.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 180px auto;
+  background-position: 50% 20%;
+  box-shadow: 0 0 96px rgba(158, 158, 158, 0.3);
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+.grow-skils:hover {
+  box-shadow: 0 0 96px rgba(158, 158, 158, 0.3);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+.image .image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -0.0281531532%;
+  z-index: 14;
+  width: 111px;
+  height: auto;
+  overflow: hidden;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.information-top {
+  position: absolute;
+  top: 0;
+  left: 614px;
+  z-index: 120;
+  width: 767px;
+  height: 33px;
+  border-bottom-left-radius: 40px;
+  background-image: -webkit-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 223, 223) 100%);
+  background-image:    -moz-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 223, 223) 100%);
+  background-image:      -o-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 223, 223) 100%);
+  background-image:     -ms-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 223, 223) 100%);
+  background-image:         linear-gradient(270deg, rgb(0, 176, 255) 0%, rgb(5, 223, 223) 100%);
+  background-repeat: no-repeat;
+}
+
+.information-top .element {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-top: 4px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center center;
+}
+
+.inner-footer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 543px;
+  height: 294px;
+  margin: auto;
+}
+
+.insta {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 18px;
+  background-image: url('../images/insta.svg');
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  background-position: center center;
+}
+
+.laptop {
+  display: block;
+  position: absolute;
+  top: 248px;
+  left: 1024px;
+  z-index: 74;
+  width: 288px;
+  height: 262px;
+  border-radius: 10px;
+  background: url('../images/laptop.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 180px auto;
+  background-position: 50% 20%;
+  box-shadow: 0 0 96px rgba(158, 158, 158, 0.3);
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  transform: skewY(5deg);
+}
+
+.left-circiule {
+  position: relative;
+  float: left;
+  z-index: 110;
+  width: 331px;
+  height: 332px;
+  margin: 740px 0 0 -212px;
+  border-radius: 290px;
+  background-color: rgb(239, 239, 239);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.lessons {
+  position: relative;
+  float: left;
+  width: 190px;
+}
+
+.lessons .element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 127;
+  width: 190px;
+  height: 166px;
+  background-image: url('../images/lessons.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.lessons .lessons {
+  display: block;
+  height: 225px;
+}
+
+.lessons .text {
+  position: absolute;
+  top: 194px;
+  left: 38px;
+  z-index: 126;
+  text-shadow: 0 2px 5px rgba(183, 183, 183, 0.3);
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 142;
+  width: 80px;
+  height: 81px;
+  margin: 24px 0 0 44px;
+  border-radius: 100px;
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  color: rgb(1, 180, 252);
+}
+
+.main-headings {
+  position: absolute;
+  top: 175px;
+  left: 65px;
+  z-index: 135;
+  width: 497px;
+  height: 154px;
+}
+
+.main-inage {
+  position: absolute;
+  top: 186px;
+  left: 657px;
+  z-index: 122;
+  width: 689px;
+  height: 628px;
+  background-image: url('../images/main%20_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-menue {
+  position: absolute;
+  top: 64px;
+  left: 673px;
+  z-index: 141;
+  width: 707px;
+  height: 53px;
+}
+
+.main-menue .application {
+  margin: 17px 0 0 30px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  -ms-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.main-menue .home {
+  margin: 17px 0 0 91px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.9);
+  -webkit-transition: .5s ease-out;
+  -moz-transition: .5s ease-out;
+  -o-transition: .5s ease-out;
+  -ms-transition: .5s ease-out;
+  transition: .5s ease-out;
+}
+
+.main-tile {
+  position: absolute;
+  top: 457px;
+  left: 76px;
+  z-index: 130;
+  width: 496px;
+  height: 297px;
+}
+
+.main-tile .courses {
+  position: relative;
+  width: 242px;
+  height: 297px;
+  margin-left: 44px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 60px rgba(165, 165, 165, 0.5);
+}
+
+.maincircule {
+  position: absolute;
+  top: -196px;
+  left: -928px;
+  z-index: 111;
+  width: 611px;
+  height: 575px;
+  border-radius: 290px;
+  background-color: rgb(239, 239, 239);
+  opacity: 0.3;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.menu {
+  width: 543px;
+  height: 19px;
+  margin: 196px auto 0;
+}
+
+.menu .application {
+  margin-left: 34px;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.menu .courses {
+  margin-left: 33px;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.menu .home {
+  font-family: SamsungSharpSans-Medium;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.more {
+  display: block;
+  position: absolute;
+  top: 445px;
+  left: 0;
+  right: 0;
+  z-index: 96;
+  width: 90px;
+  min-height: 32px;
+  margin: 0 auto;
+  background-image: url('../images/Vector-1.svg'), url('../images/Vector-1.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 8px auto, 8px auto;
+  background-position: 73% 33%, 83% 30%;
+  background-attachment: scroll, scroll;
+  font-family: SamsungOne-700;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: rgb(58, 210, 244);
+}
+
+.more1 {
+  display: block;
+  position: absolute;
+  top: 403px;
+  left: 0;
+  right: 0;
+  z-index: 106;
+  width: 90px;
+  min-height: 32px;
+  margin: 0 auto;
+  background-image: url('../images/Vector-1.svg'), url('../images/Vector-1.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 8px auto, 8px auto;
+  background-position: 73% 33%, 83% 30%;
+  background-attachment: scroll, scroll;
+  font-family: SamsungOne-700;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: rgb(58, 210, 244);
+}
+
+.more2 {
+  display: block;
+  position: absolute;
+  top: 411px;
+  left: 0;
+  right: 0;
+  z-index: 93;
+  width: 88px;
+  min-height: 32px;
+  margin: 0 auto;
+  background-image: url('../images/Vector-1.svg'), url('../images/Vector-1.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 8px auto, 8px auto;
+  background-position: 73% 33%, 83% 30%;
+  background-attachment: scroll, scroll;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 19px;
+  text-transform: uppercase;
+  color: rgb(58, 210, 244);
+}
+
+.phonennumer {
+  display: block;
+  float: left;
+  margin: 8px 0 0 9px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+
+.read-more {
+  display: block;
+  float: left;
+  clear: both;
+  width: 228px;
+  height: 69px;
+  margin: 45px 0 0 99px;
+  border-radius: 10px;
+  background: rgb(0, 176, 255);
+  background: -webkit-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:         linear-gradient(270deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.rigtcircule {
+  position: absolute;
+  top: 186px;
+  left: 1314px;
+  z-index: 131;
+  width: 283px;
+  height: 271px;
+  border-radius: 290px;
+  background-color: rgb(239, 239, 239);
+  opacity: 0.3;
+}
+
+.screena {
+  display: block;
+  position: absolute;
+  top: 239px;
+  left: 687px;
+  z-index: 68;
+  width: 288px;
+  height: 271px;
+  border-radius: 10px;
+  background: url('../images/screen.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 180px auto;
+  background-position: 50% 20%;
+  box-shadow: 0 0 96px rgba(158, 158, 158, 0.3);
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
+.feed-back .text,
+.grow-skils .text,
+.laptop .text,
+.screena .text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slider-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 146;
+  width: 1380px;
+  height: 844px;
+  background: rgb(2, 179, 251);
+  background: -webkit-linear-gradient(270deg, rgba(1, 180, 252, 0.7) 0%, rgba(1, 180, 252, 0.7) 100%), url('../images/banner%20image.svg') rgb(2, 179, 251);
+  background:    -moz-linear-gradient(270deg, rgba(1, 180, 252, 0.7) 0%, rgba(1, 180, 252, 0.7) 100%), url('../images/banner%20image.svg') rgb(2, 179, 251);
+  background:      -o-linear-gradient(270deg, rgba(1, 180, 252, 0.7) 0%, rgba(1, 180, 252, 0.7) 100%), url('../images/banner%20image.svg') rgb(2, 179, 251);
+  background:     -ms-linear-gradient(270deg, rgba(1, 180, 252, 0.7) 0%, rgba(1, 180, 252, 0.7) 100%), url('../images/banner%20image.svg') rgb(2, 179, 251);
+  background:         linear-gradient(180deg, rgba(1, 180, 252, 0.7) 0%, rgba(1, 180, 252, 0.7) 100%), url('../images/banner%20image.svg') rgb(2, 179, 251);
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%, auto auto;
+  background-position: 0% 0%, center center;
+  background-attachment: scroll, scroll;
+}
+
+.social-icone-on-top {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 636px;
+  z-index: 117;
+  width: 109px;
+  height: 25px;
+  margin: auto 0;
+}
+
+.social-icone-on-top .github,
+.social-icone-on-top .twitter {
+  width: 25px;
+  height: 25px;
+  margin-left: 11px;
+  background-size: 15px 15px;
+}
+
+.social-media {
+  position: absolute;
+  top: 251px;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  width: 175px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.social-media .github {
+  width: 30px;
+  height: 30px;
+  margin-left: 18px;
+  background-size: auto auto;
+}
+
+.social-media .twitter {
+  width: 30px;
+  height: 30px;
+  margin-left: 19px;
+  background-size: auto auto;
+}
+
+.tiles {
+  position: absolute;
+  top: 1883px;
+  left: 0;
+  right: 0;
+  z-index: 84;
+  width: 100%;
+  height: 521px;
+  margin: 0 auto;
+}
+
+.tiles .element {
+  position: relative;
+  float: left;
+}
+
+.twitter {
+  display: block;
+  float: left;
+  background-image: url('../images/Vector-1(2).svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.website {
+  float: left;
+  clear: both;
+  margin-top: 11px;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: rgb(1, 180, 252);
+}
+
+.wellcome {
+  float: left;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+._01 {
+  position: relative;
+  float: left;
+  z-index: 145;
+  width: 1380px;
+  height: 901px;
+}
+
+._02 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 109;
+  width: 100%;
+  height: 724px;
+  margin-top: 54px;
+}
+
+._04 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 64;
+  width: 1380px;
+  height: 754px;
+  margin-top: 527px;
+  background: rgb(0, 176, 255);
+  background: -webkit-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(180deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background:         linear-gradient(270deg, rgb(0, 176, 255) 0%, rgb(5, 222, 222) 100%) rgb(222, 222, 222);
+  background-repeat: no-repeat;
+}
+
+._05 {
+  position: absolute;
+  top: 3740px;
+  left: 0;
+  right: 0;
+  z-index: 46;
+  width: 1275px;
+  height: 591px;
+  margin: 0 auto;
+}
+
+._image {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 89;
+  width: 847px;
+  height: auto;
+  margin: 228px 0 0 15.81689%;
+  overflow: hidden;
+}
+
+.container-1 {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  z-index: 144;
+  width: 1380px;
+  height: 855px;
+  overflow: hidden;
+}
+
+.container-10 {
+  position: relative;
+  float: right;
+  clear: both;
+  z-index: 63;
+  width: 450px;
+  height: 554px;
+  margin: -41px 11.59194% 0 0;
+}
+
+.container-11 {
+  position: relative;
+  float: left;
+  width: 450px;
+  height: 225px;
+  margin-top: 238px;
+}
+
+.container-12 {
+  position: absolute;
+  top: 91px;
+  left: 346px;
+  z-index: 60;
+  width: 101px;
+  height: 134px;
+}
+
+.container-13 {
+  position: absolute;
+  top: 91px;
+  left: 0;
+  z-index: 57;
+  width: 110px;
+  height: 134px;
+}
+
+.container-14 {
+  position: absolute;
+  top: 30px;
+  left: 178px;
+  z-index: 54;
+  width: 101px;
+  height: 135px;
+}
+
+.container-15 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 98px;
+  z-index: 83;
+  width: 428px;
+  height: 336px;
+  margin: auto 0;
+}
+
+.container-16 {
+  float: left;
+  width: 136px;
+  height: 59px;
+  margin-left: 31.61142%;
+}
+
+.container-17 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 39;
+  width: 1380px;
+  height: 338px;
+  margin: 0 auto;
+}
+
+.container-18 {
+  position: absolute;
+  top: 165px;
+  left: 0;
+  right: 0;
+  z-index: 35;
+  width: 1029px;
+  height: 173px;
+  margin: 0 auto;
+}
+
+.container-19 {
+  float: left;
+  width: 173px;
+  height: 173px;
+}
+
+.container-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 108;
+  width: 1197px;
+  height: 715px;
+  margin: 0 auto;
+}
+
+.container-20 {
+  float: left;
+  width: 173px;
+  height: 173px;
+  margin-left: 9.42511%;
+}
+
+.container-21 {
+  float: left;
+  width: 173px;
+  height: 173px;
+  margin-left: 9.42663%;
+}
+
+.container-22 {
+  float: left;
+  width: 173px;
+  height: 173px;
+  margin-left: 9.41904%;
+}
+
+.container-23 {
+  float: left;
+  width: 412px;
+  height: 380px;
+  margin: 112px 0 0 6.66667%;
+}
+
+.container-3 {
+  position: absolute;
+  top: 137px;
+  left: 0;
+  z-index: 107;
+  width: 216px;
+  height: 453px;
+}
+
+.container-4 {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  right: 0;
+  z-index: 105;
+  width: 216px;
+  height: 127px;
+  margin: 0 auto;
+}
+
+.container-5 {
+  position: absolute;
+  top: 219px;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  width: 216px;
+  height: 471px;
+  margin: 0 auto;
+}
+
+.container-6 {
+  position: absolute;
+  top: 239px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 216px;
+  height: 181px;
+  margin: 0 auto;
+}
+
+.container-7 {
+  position: absolute;
+  top: 128px;
+  right: 0;
+  z-index: 95;
+  width: 216px;
+  height: 462px;
+}
+
+.container-8 {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 216px;
+  height: 181px;
+  margin: 24px 0 0 -0.05064%;
+}
+
+.container-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 88;
+  width: 136px;
+  height: 59px;
+  margin: 0 auto;
+}
+
+.course-2 {
+  top: 227px;
+  z-index: 123;
+  text-shadow: 0 0 20px rgba(120, 120, 120, 0.5);
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.element-1 {
+  margin-left: 106px;
+  background-image: url('../images/call.svg');
+}
+
+.element-10 {
+  position: absolute;
+  top: 76px;
+  left: 1.1594202898%;
+  z-index: 47;
+  width: 656px;
+  height: 623px;
+  background-image: url('../images/2022-02-10_22-11-06.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.element-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 58;
+  width: 101px;
+  height: 101px;
+  border-radius: 100px;
+  background: url('../images/teacers%20and%20students.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  box-shadow: 0 0 20px rgba(120, 120, 120, 0.5);
+}
+
+.element-12 {
+  float: left;
+  width: 101px;
+  height: 101px;
+  margin-left: 5px;
+  border-radius: 100px;
+  background: url('../images/cap%20student.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  box-shadow: 0 0 20px rgba(120, 120, 120, 0.5);
+}
+
+.element-13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 52;
+  width: 101px;
+  height: 101px;
+  border-radius: 100px;
+  background: url('../images/building.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  box-shadow: 0 0 20px rgba(120, 120, 120, 0.5);
+}
+
+.element-14 {
+  position: absolute;
+  top: 0;
+  left: 255px;
+  z-index: 51;
+  width: 162px;
+  height: 151px;
+  border-bottom: 2px dashed rgb(255, 255, 255);
+  border-radius: 106px;
+}
+
+.element-15 {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  z-index: 50;
+  width: 162px;
+  height: 151px;
+  border-bottom: 2px dashed rgb(255, 255, 255);
+  border-radius: 106px;
+}
+
+.element-16 {
+  z-index: 65;
+  width: 100%;
+  height: 499px;
+  background-color: rgb(251, 251, 251);
+}
+
+.element-17 {
+  clear: both;
+  z-index: 79;
+  width: 41px;
+  height: 59px;
+  margin: -47px 0 0 95px;
+  background-image: url('../images/aoutus.jpg');
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  background-position: center center;
+}
+
+.element-18 {
+  z-index: 37;
+  width: 41px;
+  height: 59px;
+  margin: -14px 0 0 856px;
+  background-image: url('../images/aoutus.jpg');
+  background-size: 30px auto;
+  background-position: center center;
+}
+
+.element-19 {
+  clear: both;
+  z-index: 18;
+  width: 180px;
+  height: 260px;
+  margin: 15px 0 0 -1px;
+  background-image: url('../images/dots.jpg');
+  background-size: cover;
+  background-position: left center;
+  opacity: 0.5;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.element-2 {
+  margin-left: 52px;
+  background-image: url('../images/envalop.svg');
+}
+
+.element-20 {
+  z-index: 27;
+  width: 173px;
+  height: 173px;
+  border: 3px dashed rgb(181, 181, 181);
+  border-radius: 221px;
+  background: url('../images/strength.png') rgb(255, 255, 255);
+  background-size: 90px auto;
+  background-position: 50% 20%;
+}
+
+.element-21 {
+  z-index: 23;
+  width: 173px;
+  height: 173px;
+  border: 3px dashed rgb(181, 181, 181);
+  border-radius: 221px;
+  background: url('../images/single%20teacher.png') rgb(255, 255, 255);
+  background-size: 90px auto;
+  background-position: 50% 20%;
+}
+
+.element-22 {
+  z-index: 19;
+  width: 173px;
+  height: 173px;
+  border: 3px dashed rgb(181, 181, 181);
+  border-radius: 221px;
+  background: url('../images/school.png') rgb(255, 255, 255);
+  background-size: 100px auto;
+  background-position: 50% 20%;
+}
+
+.element-23 {
+  z-index: 31;
+  width: 173px;
+  height: 173px;
+  border: 3px dashed rgb(181, 181, 181);
+  border-radius: 221px;
+  background: url('../images/mobile.png') rgb(255, 255, 255);
+  background-size: 90px auto;
+  background-position: 50% 20%;
+}
+
+.element-24 {
+  z-index: 17;
+  width: 180px;
+  height: 260px;
+  margin: 15px 0 0 1020px;
+  background-image: url('../images/dots.jpg');
+  background-size: cover;
+  background-position: right center;
+  opacity: 0.5;
+}
+
+.element-25 {
+  float: left;
+  width: 590px;
+  height: 591px;
+  margin-left: 188px;
+  background-image: url('../images/cellphone(2).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.element-3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 121;
+  width: 12px;
+  height: 82px;
+  margin: 51px 0 0 40px;
+  border-radius: 5px;
+  background-color: rgb(1, 180, 252);
+}
+
+.element-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 102;
+  width: 205px;
+  height: 206px;
+  margin: 0 auto;
+  border-radius: 187px;
+  background: url('../images/student(2).png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 136px auto;
+  background-position: center center;
+  box-shadow: 0 0 100px rgba(186, 186, 186, 0.2);
+}
+
+.element-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 97;
+  width: 205px;
+  height: 206px;
+  margin: 0 auto;
+  border-radius: 187px;
+  background: url('../images/teacers.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 130px auto;
+  background-position: 60% 50%;
+  box-shadow: 0 0 100px rgba(186, 186, 186, 0.2);
+}
+
+.element-7 {
+  float: left;
+  width: 205px;
+  height: 206px;
+  margin-left: 5px;
+  border-radius: 187px;
+  background: url('../images/online.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: 136px auto;
+  background-position: 57% 50%;
+  box-shadow: 0 0 100px rgba(186, 186, 186, 0.2);
+}
+
+.element-8 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 86;
+  width: 41px;
+  height: 59px;
+  margin: -48px 0 0 95px;
+  background-image: url('../images/aoutus.jpg');
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  background-position: center center;
+}
+
+.element-9 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 0;
+  width: 331px;
+  height: 332px;
+  margin: -148px 0 0 1251px;
+  border-radius: 290px;
+  background-color: rgb(1, 180, 252);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.image-3 {
+  position: absolute;
+  top: 58px;
+  left: 634px;
+  z-index: 15;
+  width: 111px;
+  height: 111px;
+}
+
+.lessons-1 {
+  height: 231px;
+  margin: 33px 0 0 4.00063%;
+}
+
+.text-1 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 143;
+  margin: 6px 0 0 53px;
+  font-family: 'Samsung Sharp Sans';
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 6px;
+  color: rgb(1, 180, 252);
+}
+
+.text-10 {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  right: 0;
+  z-index: 85;
+  width: 507px;
+  min-height: 102px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.78;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-11 {
+  position: relative;
+  float: left;
+  z-index: 48;
+  width: 288px;
+  min-height: 23px;
+  margin: 149px 0 0 980px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.text-12 {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 62;
+  min-height: 43px;
+  margin: 0 auto;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 26px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-13 {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+  z-index: 49;
+  margin: 0 auto;
+  line-height: 2.28;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-14 {
+  float: left;
+  min-height: 22px;
+  margin: 112px 0 0 14px;
+  font-family: 'Samsung Sharp Sans';
+  font-size: 16px;
+  font-weight: Medium;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.text-15 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 56;
+  width: 110px;
+  min-height: 22px;
+  margin: 0 auto;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.text-16 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 53;
+  min-height: 22px;
+  margin: 0 auto;
+  font-family: 'Samsung Sharp Sans';
+  font-size: 16px;
+  font-weight: Medium;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.text-17 {
+  position: relative;
+  float: left;
+  z-index: 80;
+  margin: 16px 0 0 -5px;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+}
+
+.text-18 {
+  float: left;
+  clear: both;
+  width: 428px;
+  margin-top: 23px;
+  font-size: 15px;
+  line-height: 2.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-19 {
+  top: 202px;
+  z-index: 76;
+  width: 216px;
+  font-size: 8px;
+  line-height: 2.18;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-20 {
+  top: 174px;
+  z-index: 75;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+}
+
+.text-21 {
+  top: 181px;
+  z-index: 73;
+  width: 216px;
+  font-size: 8px;
+  line-height: 2.18;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-22 {
+  top: 150px;
+  z-index: 72;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-23 {
+  top: 199px;
+  z-index: 70;
+  width: 216px;
+  font-size: 8px;
+  line-height: 2.18;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-24 {
+  top: 169px;
+  z-index: 69;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-25 {
+  top: 204px;
+  z-index: 67;
+  width: 216px;
+  font-size: 8px;
+  line-height: 2.18;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-26 {
+  top: 173px;
+  z-index: 66;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-27 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 38;
+  margin: 0 auto;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 23px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-28 {
+  float: left;
+  clear: both;
+  width: 657px;
+  min-height: 61px;
+  margin-left: 392px;
+  font: 11px/2.38 SamsungSharpSans-Medium;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-29 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 28;
+  min-height: 16px;
+  margin: -41px 0 0 54px;
+  font-family: SamsungSharpSans-Medium;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  right: 0;
+  z-index: 104;
+  min-height: 31px;
+  margin: 0 auto;
+  line-height: 1.88;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-30 {
+  position: relative;
+  float: left;
+  z-index: 29;
+  margin: -65px 0 0 62px;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 24px;
+  color: rgb(1, 180, 252);
+}
+
+.text-31 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 24;
+  width: 76px;
+  min-height: 16px;
+  margin: -44px 0 0 49px;
+  font-family: SamsungSharpSans-Medium;
+  color: rgb(0, 0, 0);
+}
+
+.text-32 {
+  position: relative;
+  float: left;
+  z-index: 25;
+  margin: -65px 0 0 60px;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 24px;
+  color: rgb(1, 180, 252);
+}
+
+.text-33 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 20;
+  width: 76px;
+  min-height: 16px;
+  margin: -44px 0 0 49px;
+  font-family: SamsungSharpSans-Medium;
+  color: rgb(0, 0, 0);
+}
+
+.text-34 {
+  position: relative;
+  float: left;
+  z-index: 21;
+  margin: -68px 0 0 66px;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 24px;
+  color: rgb(1, 180, 252);
+}
+
+.text-35 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 33;
+  min-height: 16px;
+  margin: -41px 0 0 42px;
+  font-family: SamsungSharpSans-Medium;
+  color: rgb(0, 0, 0);
+}
+
+.text-36 {
+  position: relative;
+  float: left;
+  z-index: 32;
+  margin: -65px 0 0 60px;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 24px;
+  color: rgb(1, 180, 252);
+}
+
+.text-37 {
+  float: left;
+  width: 412px;
+  margin-left: -1px;
+  font-family: 'Samsung Sharp Sans Bold';
+  font-size: 28px;
+  text-align: center;
+  color: rgb(1, 180, 252);
+}
+
+.text-38 {
+  float: left;
+  clear: both;
+  width: 395px;
+  min-height: 185px;
+  margin: 22px 0 0 8px;
+  font-size: 18px;
+  line-height: 1.58;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.text-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 103;
+  min-height: 31px;
+  margin: 0 auto;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 98;
+  margin: 0 auto;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 19px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 90;
+  margin: 0 auto;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.text-6,
+.text-8 {
+  float: left;
+  min-height: 31px;
+  margin-top: 45px;
+  line-height: 1.88;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text-9 {
+  position: relative;
+  float: left;
+  z-index: 87;
+  margin: 17px 0 0 -3px;
+  font-family: SamsungSharpSans-Medium;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
